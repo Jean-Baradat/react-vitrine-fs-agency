@@ -1,3 +1,8 @@
+import img2 from "./../assets/img/projet-2.jpg";
+import img1 from "./../assets/img/projet-1.jpg";
+import img3 from "./../assets/img/projet-3.jpg";
+import img4 from "./../assets/img/projet-4.jpg";
+
 export const projectsData = [
   {
     id: 1,
@@ -6,7 +11,7 @@ export const projectsData = [
     languages: ["React", "Php", "Sass"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-2.jpg",
+    img: img2,
     link: "http://www.google.com",
   },
   {
@@ -16,7 +21,7 @@ export const projectsData = [
     languages: ["Symfony", "Vue"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-1.jpg",
+    img: img1,
     link: "http://www.google.com",
   },
   {
@@ -26,7 +31,7 @@ export const projectsData = [
     languages: ["Wordpress", "Php", "React"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-3.jpg",
+    img: img3,
     link: "http://www.google.com",
   },
   {
@@ -36,7 +41,7 @@ export const projectsData = [
     languages: ["Vue", "Php"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-4.jpg",
+    img: img4,
     link: "http://www.google.com",
   },
 ];

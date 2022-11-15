@@ -21,6 +21,7 @@ const App = () => {
                     <Route path="/projet-4" element={<Project4 />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="*" element={<NotFound />} />
+                    <Route path="/react-vitrine-fs-agency" element={<Home />} />
                 </Routes>
             </AnimatePresence>
         </BrowserRouter>
