@@ -1,8 +1,24 @@
-import React, { useRef } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
     const form = useRef();
+
+    const [data, setData] = useState();
+
+    useEffect(() => {
+        const getData = async () => {
+            const url = "/.netlify/functions/todo";
+
+            try {
+                const data = await fetch(url).then((res) => res.text());
+                setData(data);
+            } catch (err) {
+                console.log(err);
+            }
+        };
+        getData();
+    }, []);
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -10,12 +26,7 @@ const ContactForm = () => {
         const formMess = document.querySelector(".form-message");
 
         emailjs
-            .sendForm(
-                "service_ltywq85",
-                "template_ghsuq6j",
-                form.current,
-                process.env.REACT_APP_ID
-            )
+            .sendForm("service_ltywq85", "template_ghsuq6j", form.current, data)
             .then(
                 (result) => {
                     console.log(result.text);
