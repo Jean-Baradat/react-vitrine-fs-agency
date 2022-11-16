@@ -1,4 +1,7 @@
-Netlify Status : [![Netlify Status](https://api.netlify.com/api/v1/badges/c7d1d509-cdfb-43e8-a62b-fe019d2b47e2/deploy-status)](https://app.netlify.com/sites/react-vitrine-fs-agency/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c7d1d509-cdfb-43e8-a62b-fe019d2b47e2/deploy-status)](https://app.netlify.com/sites/react-vitrine-fs-agency/deploys)
+
+# Réalisé en plus de cours
+J'ai mis en place le site sur [Netlify](https://www.netlify.com/) tout en réalisant un accès sécurisé avec une clé secrète pour le service [Emailjs](https://www.emailjs.com/) pour la page contact.
 
 # Getting Started with Create React App
 
