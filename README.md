@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c7d1d509-cdfb-43e8-a62b-fe019d2b47e2/deploy-status)](https://app.netlify.com/sites/react-vitrine-fs-agency/deploys)
+Netlify Status : [![Netlify Status](https://api.netlify.com/api/v1/badges/c7d1d509-cdfb-43e8-a62b-fe019d2b47e2/deploy-status)](https://app.netlify.com/sites/react-vitrine-fs-agency/deploys)
 
 # Getting Started with Create React App
 
