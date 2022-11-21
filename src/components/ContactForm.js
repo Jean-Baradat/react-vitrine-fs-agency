@@ -10,7 +10,12 @@ const ContactForm = () => {
         const formMess = document.querySelector(".form-message");
 
         emailjs
-            .sendForm("service_ltywq85", "template_ghsuq6j", form.current, process.env.REACT_APP_ID)
+            .sendForm(
+                "service_ltywq85",
+                "template_ghsuq6j",
+                form.current,
+                process.env.REACT_APP_ID
+            )
             .then(
                 (result) => {
                     console.log(result.text);
@@ -55,7 +60,7 @@ const ContactForm = () => {
                     in="email"
                 />
                 <label>Message</label>
-                <textarea name="message" required id="mess" />
+                <textarea name="message" required />
                 <input type="submit" value="Envoyer" className="hover button" />
             </form>
             <div className="form-message"></div>
